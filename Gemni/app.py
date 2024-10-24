@@ -27,7 +27,7 @@ st.markdown("""
 st.markdown("<h1 class='title'>AI Chatbot</h1>", unsafe_allow_html=True)
 st.sidebar.title("Welcome to the AI Chatbot")
 
-image = Image.open('chatbot_logo.png')  
+image = Image.open('Gemni/chatbot_logo.png')  
 st.sidebar.image(image, caption='Chatbot', use_column_width=True)
 
 persona = """ You are a chatbot, so answer questions accordingly. """
