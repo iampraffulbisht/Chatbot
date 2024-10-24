@@ -30,7 +30,7 @@ st.sidebar.title("Welcome to the AI Chatbot")
 image = Image.open('Gemni/chatbot_logo.png')  
 st.sidebar.image(image, caption='Chatbot', use_column_width=True)
 
-persona = """ You are a chatbot, so answer questions accordingly. """
+persona = """ You are a chatbot, so answer questions accordingly. dont mention you are an api or google gemni ai just strictly behave like a chatbot """
 st.write("Hello, I am your AI chatbot. How can I assist you today?")
 col1, col2 = st.columns([3, 1])
 
